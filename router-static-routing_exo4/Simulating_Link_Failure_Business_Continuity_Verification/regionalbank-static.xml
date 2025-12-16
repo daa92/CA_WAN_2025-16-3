@@ -1,0 +1,173 @@
+<anim ver="netanim-3.109" filetype="animation" >
+<node id="0" sysId="0" locX="5" locY="15" />
+<node id="1" sysId="0" locX="10" locY="5" />
+<node id="2" sysId="0" locX="15" locY="15" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<link fromId="0" toId="1" fd="10.1.1.1~00:00:00:00:00:01" td="10.1.1.2~00:00:00:00:00:02" ld="" />
+<nonp2plinkproperties id="0" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<link fromId="1" toId="2" fd="10.1.2.1~00:00:00:00:00:03" td="10.1.2.2~00:00:00:00:00:04" ld="" />
+<link fromId="1" toId="2" fd="10.1.3.1~00:00:00:00:00:05" td="10.1.3.2~00:00:00:00:00:06" ld="" />
+<nonp2plinkproperties id="1" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="2" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >10.1.3.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >10.1.3.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >10.1.3.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ipv6 n="0" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="1" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="2" >
+<address >::1</address>
+
+</ipv6>
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="d" t="0" id="0" descr="Branch-C
+(Client)
+10.1.1.1" />
+<nu p="d" t="0" id="1" descr="DC-A
+(Router)
+10.1.1.2|10.1.2.1|10.1.3.1" />
+<nu p="d" t="0" id="2" descr="DR-B
+(DR Server)
+10.1.2.2|10.1.3.2" />
+<nu p="c" t="0" id="0" r="0" g="255" b="0" />
+<nu p="c" t="0" id="1" r="255" g="165" b="0" />
+<nu p="c" t="0" id="2" r="0" g="100" b="255" />
+<nu p="s" t="0" id="0" w="5" h="5" />
+<nu p="s" t="0" id="1" w="7" h="7" />
+<nu p="s" t="0" id="2" w="5" h="5" />
+<p fId="0" fbTx="2" lbTx="2.0016864" tId="1" fbRx="2.002" lbRx="2.0036864" />
+<p fId="1" fbTx="2.0036864" lbTx="2.0053728" tId="2" fbRx="2.0136864" lbRx="2.0153728" />
+<p fId="2" fbTx="2.0153728" lbTx="2.0170592" tId="1" fbRx="2.0253728" lbRx="2.0270592" />
+<p fId="1" fbTx="2.0270592" lbTx="2.0287456" tId="0" fbRx="2.0290592" lbRx="2.0307456" />
+<p fId="0" fbTx="3" lbTx="3.0016864" tId="1" fbRx="3.002" lbRx="3.0036864" />
+<p fId="1" fbTx="3.0036864" lbTx="3.0053728" tId="2" fbRx="3.0136864" lbRx="3.0153728" />
+<p fId="2" fbTx="3.0153728" lbTx="3.0170592" tId="1" fbRx="3.0253728" lbRx="3.0270592" />
+<p fId="1" fbTx="3.0270592" lbTx="3.0287456" tId="0" fbRx="3.0290592" lbRx="3.0307456" />
+<p fId="0" fbTx="4" lbTx="4.0016864" tId="1" fbRx="4.002" lbRx="4.0036864" />
+<p fId="1" fbTx="4.0036864" lbTx="4.0053728" tId="2" fbRx="4.0136864" lbRx="4.0153728" />
+<p fId="2" fbTx="4.0153728" lbTx="4.0170592" tId="1" fbRx="4.0253728" lbRx="4.0270592" />
+<p fId="1" fbTx="4.0270592" lbTx="4.0287456" tId="0" fbRx="4.0290592" lbRx="4.0307456" />
+<p fId="0" fbTx="5" lbTx="5.0016864" tId="1" fbRx="5.002" lbRx="5.0036864" />
+<p fId="1" fbTx="5.0036864" lbTx="5.0053728" tId="2" fbRx="5.0136864" lbRx="5.0153728" />
+<p fId="0" fbTx="6" lbTx="6.0016864" tId="1" fbRx="6.002" lbRx="6.0036864" />
+<p fId="1" fbTx="6.0036864" lbTx="6.0053728" tId="2" fbRx="6.0136864" lbRx="6.0153728" />
+<p fId="0" fbTx="7" lbTx="7.0016864" tId="1" fbRx="7.002" lbRx="7.0036864" />
+<p fId="1" fbTx="7.0036864" lbTx="7.0053728" tId="2" fbRx="7.0136864" lbRx="7.0153728" />
+<p fId="0" fbTx="8" lbTx="8.0016864" tId="1" fbRx="8.002" lbRx="8.0036864" />
+<p fId="1" fbTx="8.0036864" lbTx="8.0053728" tId="2" fbRx="8.0136864" lbRx="8.0153728" />
+<p fId="0" fbTx="9" lbTx="9.0016864" tId="1" fbRx="9.002" lbRx="9.0036864" />
+<p fId="1" fbTx="9.0036864" lbTx="9.0053728" tId="2" fbRx="9.0136864" lbRx="9.0153728" />
+<p fId="0" fbTx="10" lbTx="10.0016864" tId="1" fbRx="10.002" lbRx="10.0036864" />
+<p fId="1" fbTx="10.0036864" lbTx="10.0053728" tId="2" fbRx="10.0136864" lbRx="10.0153728" />
+<p fId="0" fbTx="11" lbTx="11.0016864" tId="1" fbRx="11.002" lbRx="11.0036864" />
+<p fId="1" fbTx="11.0036864" lbTx="11.0053728" tId="2" fbRx="11.0136864" lbRx="11.0153728" />
+<p fId="0" fbTx="12" lbTx="12.0016864" tId="1" fbRx="12.002" lbRx="12.0036864" />
+<p fId="1" fbTx="12.0036864" lbTx="12.0053728" tId="2" fbRx="12.0136864" lbRx="12.0153728" />
+<p fId="0" fbTx="13" lbTx="13.0016864" tId="1" fbRx="13.002" lbRx="13.0036864" />
+<p fId="1" fbTx="13.0036864" lbTx="13.0053728" tId="2" fbRx="13.0136864" lbRx="13.0153728" />
+<p fId="0" fbTx="14" lbTx="14.0016864" tId="1" fbRx="14.002" lbRx="14.0036864" />
+<p fId="1" fbTx="14.0036864" lbTx="14.0053728" tId="2" fbRx="14.0136864" lbRx="14.0153728" />
+<p fId="0" fbTx="15" lbTx="15.0016864" tId="1" fbRx="15.002" lbRx="15.0036864" />
+<p fId="1" fbTx="15.0036864" lbTx="15.0053728" tId="2" fbRx="15.0136864" lbRx="15.0153728" />
+<p fId="0" fbTx="16" lbTx="16.0016864" tId="1" fbRx="16.002" lbRx="16.0036864" />
+<p fId="1" fbTx="16.0036864" lbTx="16.0053728" tId="2" fbRx="16.0136864" lbRx="16.0153728" />
+<p fId="0" fbTx="17" lbTx="17.0016864" tId="1" fbRx="17.002" lbRx="17.0036864" />
+<p fId="1" fbTx="17.0036864" lbTx="17.0053728" tId="2" fbRx="17.0136864" lbRx="17.0153728" />
+<p fId="0" fbTx="18" lbTx="18.0016864" tId="1" fbRx="18.002" lbRx="18.0036864" />
+<p fId="1" fbTx="18.0036864" lbTx="18.0053728" tId="2" fbRx="18.0136864" lbRx="18.0153728" />
+<p fId="0" fbTx="19" lbTx="19.0016864" tId="1" fbRx="19.002" lbRx="19.0036864" />
+<p fId="1" fbTx="19.0036864" lbTx="19.0053728" tId="2" fbRx="19.0136864" lbRx="19.0153728" />
+<p fId="0" fbTx="20" lbTx="20.0016864" tId="1" fbRx="20.002" lbRx="20.0036864" />
+<p fId="1" fbTx="20.0036864" lbTx="20.0053728" tId="2" fbRx="20.0136864" lbRx="20.0153728" />
+<p fId="0" fbTx="21" lbTx="21.0016864" tId="1" fbRx="21.002" lbRx="21.0036864" />
+<p fId="1" fbTx="21.0036864" lbTx="21.0053728" tId="2" fbRx="21.0136864" lbRx="21.0153728" />
+<p fId="0" fbTx="22" lbTx="22.0016864" tId="1" fbRx="22.002" lbRx="22.0036864" />
+<p fId="1" fbTx="22.0036864" lbTx="22.0053728" tId="2" fbRx="22.0136864" lbRx="22.0153728" />
+<p fId="0" fbTx="23" lbTx="23.0016864" tId="1" fbRx="23.002" lbRx="23.0036864" />
+<p fId="1" fbTx="23.0036864" lbTx="23.0053728" tId="2" fbRx="23.0136864" lbRx="23.0153728" />
+<p fId="0" fbTx="24" lbTx="24.0016864" tId="1" fbRx="24.002" lbRx="24.0036864" />
+<p fId="1" fbTx="24.0036864" lbTx="24.0053728" tId="2" fbRx="24.0136864" lbRx="24.0153728" />
+</anim>
